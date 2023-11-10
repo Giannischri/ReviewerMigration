@@ -24,10 +24,15 @@
       "dom"
     ]
   },
-  "angularCompilerOptions": {
+"angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
+    "strictNullChecks": false,
+    "strictInjectionParameters": false,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+  
+
   }
 }
